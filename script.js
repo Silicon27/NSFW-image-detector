@@ -2,7 +2,7 @@ const fs = require('fs');
 const http = require('http');
 const FormData = require('form-data');
 
-const image = fs.readFileSync('/Users/yangmingde/Downloads/me.jpg'); 
+const image = fs.readFileSync('/path/to/image.png'); 
 
 // Encode the image to base64
 const base64Image = Buffer.from(image).toString('base64');
