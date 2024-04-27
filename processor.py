@@ -9,7 +9,7 @@ import io
 app = Flask(__name__)
 
 # Load pre-trained model
-model_path = '/Users/yangmingde/Downloads/nsfw_mobilenet2.224x224.h5'
+model_path = '/path/to/nsfw_mobilenet2.224x224.h5'
 model = predict.load_model(model_path)
 
 
